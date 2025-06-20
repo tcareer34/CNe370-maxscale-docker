@@ -6,8 +6,8 @@ This Docker image runs the latest Docker and Ubuntu version:
 	(https://github.com/tcareer34/CNe370-maxscale-docker/tree/master/maxscale)
 
 ## Running
-[The MaxScale docker-compose setup](./docker-compose.yml) contains MaxScale
-configured with a three node Primary1-Primary2 cluster. To start it, run the
+https://github.com/tcareer34/CNe370-maxscale-docker/blob/master/maxscale/docker-compose.yml) contains maxscale
+configured with a three node maxscale-master1-master2 cluster. To start it, run the
 following commands in this directory.
 
 ```
