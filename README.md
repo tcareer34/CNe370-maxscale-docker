@@ -25,8 +25,8 @@ Welcome to the MariaDB monitor.  Commands end with ; or \g.
 Your MySQL connection id is 5
 
 ```
-You can edit the [`https://github.com/tcareer34/CNe370-maxscale-docker/tree/master/maxscale/maxscale.cnf.d](./maxscale.cnf.d/example.cnf)
-file and recreate the MaxScale container to change the configuration.
+You can edit the [`https://github.com/tcareer34/CNe370-maxscale-docker/tree/master/maxscale/maxscale.cnf.d]
+example.cnf file and recreate the MaxScale container to change the configuration.
 
 To stop the containers, execute the following command. Optionally, use the -v
 flag to also remove the volumes.
@@ -53,9 +53,8 @@ Tim@Ubuntu:~/CNE370/maxscale-docker/maxscale$ sudo docker-compose exec maxscale 
 
 ```
 
-The cluster is configured Python3. 
-Tim@Ubuntu:~/CNE370/maxscale-docker/maxscale$ nano main.py
-
+The cluster is configured Python3 . 
+Tim@Ubuntu:~/CNE370/maxscale-docker/maxscale$ nano main.py 
 Then run the code wit the command:
 Tim@Ubuntu:~/CNE370/maxscale-docker/maxscale$ python3 main.py
 
