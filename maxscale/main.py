@@ -1,6 +1,6 @@
-# Abi Diop
+# Tim Nguyen
 # cne370
-# 6/14/23
+# 6-20-2025
 # script to query some data from the sharded database configuration
 
 import mysql.connector
