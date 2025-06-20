@@ -25,7 +25,7 @@ Welcome to the MariaDB monitor.  Commands end with ; or \g.
 Your MySQL connection id is 5
 
 ```
-You can edit the [`maxscale.cnf.d/example.cnf`](./maxscale.cnf.d/example.cnf)
+You can edit the [`https://github.com/tcareer34/CNe370-maxscale-docker/tree/master/maxscale/maxscale.cnf.d](./maxscale.cnf.d/example.cnf)
 file and recreate the MaxScale container to change the configuration.
 
 To stop the containers, execute the following command. Optionally, use the -v
