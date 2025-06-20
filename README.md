@@ -41,11 +41,11 @@ Tim@Ubuntu:~/CNE370/maxscale-docker/maxscale$ sudo docker-compose exec maxscale 
 
 ├─────────┼──────────┼──────┼─────────────┼─────────────────┼──────┼─────────────────┤
 
-│ server1 │ primary1 │ 3306 │ 0           │ Master, Running │      │ MariaDB-Monitor │
+│ server1 │ master1 │ 3306 │ 0           │ Master, Running │      │ MariaDB-Monitor │
 
 ├─────────┼──────────┼──────┼─────────────┼─────────────────┼──────┼─────────────────┤
 
-│ server2 │ primary2 │ 3306 │ 0           │ Running         │      │ MariaDB-Monitor │
+│ server2 │ master2 │ 3306 │ 0           │ Running         │      │ MariaDB-Monitor │
 
 └─────────┴──────────┴──────┴─────────────┴─────────────────┴──────┴─────────────────┘
 
