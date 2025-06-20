@@ -1,7 +1,8 @@
 # Tim Nguyen
-# cne370
+# tnguyen34@rtc.edu
 # 6-20-2025
-# script to query some data from the sharded database configuration
+# CNE 370
+# This script queries some data from the sharded database configuration
 
 import mysql.connector
 
