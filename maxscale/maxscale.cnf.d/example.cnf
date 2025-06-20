@@ -1,12 +1,12 @@
 [server1]
 type=server
-address=primary1
+address=master1
 port=3306
 protocol=MariaDBBackend
 
 [server2]
 type=server
-address=primary2
+address=master2
 port=3306
 protocol=MariaDBBackend
 
