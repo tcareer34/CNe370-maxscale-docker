@@ -16,6 +16,7 @@ services:
             MYSQL_ALLOW_EMPTY_PASSWORD: 'Y'
         volumes:
             - ./sql/primary2:/docker-entrypoint-initdb.d
+            command: mysqld --log-bin=mariadb-bin --binlog-format=ROW --server-id=3001
         ports:
             - "4002:3306"
 
