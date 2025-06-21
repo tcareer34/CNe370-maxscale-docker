@@ -33,7 +33,7 @@ flag to also remove the volumes.
 
 To run maxctrl in the container to see the status of the cluster:
 ```
-Tim@Ubuntu:~/CNE370/maxscale-docker/maxscale$ sudo docker-compose exec maxscale maxctrl list servers
+Tim@Ubuntu:~/CNE370-maxscale-docker/maxscale$ sudo docker-compose exec maxscale maxctrl list servers
 
 ┌─────────┬──────────┬──────┬─────────────┬─────────────────┬──────┬─────────────────┐
 
@@ -54,10 +54,10 @@ Tim@Ubuntu:~/CNE370/maxscale-docker/maxscale$ sudo docker-compose exec maxscale 
 ```
 
 The cluster is configured Python3 . 
-Tim@Ubuntu:~/CNE370/maxscale-docker/maxscale$ nano main.py
+Tim@Ubuntu:~/CNE370-maxscale-docker/maxscale$ nano main.py
  
 Then run the code wit the command:
-Tim@Ubuntu:~/CNE370/maxscale-docker/maxscale$ python3 main.py
+Tim@Ubuntu:~/CNE370-maxscale-docker/maxscale$ python3 main.py
 
 ```
 Run the command to chech the MariaDB server: sudo docker inspect maxscale-maxscale-1
