@@ -1,6 +1,6 @@
 # MariaDB MaxScale Docker image
 
-This Docker image runs the latest Docker version 28.2.2-1~ubuntu.24.04~noble version:
+This Docker image runs the latest Docker version 26.1.3-0ubuntu1~24.04.1 version:
 
 -	Tim Nguyen:  
 	(https://github.com/tcareer34/CNe370-maxscale-docker/tree/master/maxscale)
